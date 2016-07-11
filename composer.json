@@ -1,0 +1,14 @@
+{
+    "name": "clp/dependencies02",
+    "version": "0.0.1-dev",
+    "type": "library",
+    "require": {
+        "clp/dependencies01": ">=0.0.1-dev"
+    },
+    "repositories": [{
+        "type": "vcs",
+        "url": "git@github.com:chenlipeng/dependencies01.git"
+    },{
+        "packageist": false
+    }]
+}
